@@ -10,10 +10,10 @@
 <body>
   <h1> Studio Ghibli Movie Selector</h1>
   <p>Not sure which movie to pick? Enter in your current mood and we'll give you a Studio Ghibli movie to watch based on it</p>
-  <h2>How are you feeling?</h2>
+ 
   <form>
-  
-    
+  <section class="feelings">
+    <p>How are you feeling?</p>
     <input name="feeling" id="sad" type="radio">
     <label for="sad">Sad</label>
     
@@ -28,7 +28,9 @@
     
     <input name="feeling" id="anxious" type="radio">
     <label for="anxious">Anxious</label>
-
+  </section>
+    
+  <section class="mood">
     <label for="purpose">What are you in the mood to do?</label>
     <select name="purpose" for="purpose">
       <option value="relax">Relax and chill</option>
@@ -36,6 +38,8 @@
       <option vlaue="ponder">Ponder life and my existence</option>
       <option value="unsure">Not sure, I'm along for the ride</option>
     </select> 
+  </section>
+    
   </form>
 </body>
   
