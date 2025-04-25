@@ -5,6 +5,10 @@ body {
   padding: 20px;
 }
 
+p {
+  text-align: center;
+}
+
 .totoro {
   height: 35vh;
   width: auto;
@@ -18,9 +22,10 @@ body {
 .submit {
   font-size: 25px;
   border-radius: 5px;
-  background-color: rgb(209, 160, 100);
+  background-color: rgb(242, 174, 180);
   font-weight: bold;
-  margin-top: 10px;
+  padding-top: 10px;
+  margin: auto;
     a:hover {
       background-color: #FFF;
       transform: scale(1.5);
@@ -37,4 +42,7 @@ select {
   font-family: sans-serif;
 }
   
-
+.mood {
+  padding-top: 10px;
+}
+  
