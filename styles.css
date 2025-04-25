@@ -1,6 +1,12 @@
 body {
   background-color: rgb(204, 230, 197);
-  font-size: 16px;
+  font-size: 25px;
+}
+
+.totoro {
+  height: 5vh;
+  width: auto;
+  border-radius: 5px;
 }
 
 * {
