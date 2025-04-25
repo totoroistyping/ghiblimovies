@@ -21,7 +21,7 @@ body {
   margin: auto;
 }
 
-.submit a:hover {
+.submit:hover {
   background-color: #FFF;
   transform: scale(1.5);
 }
